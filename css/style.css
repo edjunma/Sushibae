@@ -10,7 +10,7 @@
 @import url("sections/subscribe.css");
 @import url("sections/footer.css");
 
-/* CSS variables for reusability across all files (including above imported) */
+/* CSS variables for reusablity across all files (including above imported) */
 :root {
   --playfair-display: "Playfair Display", serif;
   --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
@@ -290,7 +290,7 @@ a {
     flex-direction: column;
   }
 
-  .trending-drink {
+  .trending-drinks {
     flex-direction: column-reverse;
   }
 
@@ -310,7 +310,7 @@ a {
 
 @media screen and (max-width: 550px) {
   .trending__image img {
-    width: 70%;
+    width: 75%;
     height: 70%;
   }
 
@@ -319,3 +319,9 @@ a {
   }
 }
 /* END: trending media queries */
+
+@media screen and (max-width: 550px) {
+  .footer__nav li {
+    font-size: 8.8px;
+  }
+}
